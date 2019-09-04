@@ -1,0 +1,733 @@
+fileFormatVersion: 2
+guid: 9790e2c23dda6a943b9ef0c02128faef
+timeCreated: 1509001781
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Bottom
+    100004: Bottom 1
+    100006: Bottom_Face
+    100008: //RootNode
+    100010: joint2
+    100012: joint2 1
+    100014: joint2 2
+    100016: joint2 3
+    100018: Left
+    100020: Left 1
+    100022: Left_Face
+    100024: LimitedJointBottom
+    100026: LimitedJointLeft
+    100028: LimitedJointRight
+    100030: LimitedJointTop
+    100032: Right
+    100034: Right 1
+    100036: Right_Face
+    100038: Top
+    100040: Top 1
+    100042: Top_Face
+    400000: Body
+    400002: Bottom
+    400004: Bottom 1
+    400006: Bottom_Face
+    400008: //RootNode
+    400010: joint2
+    400012: joint2 1
+    400014: joint2 2
+    400016: joint2 3
+    400018: Left
+    400020: Left 1
+    400022: Left_Face
+    400024: LimitedJointBottom
+    400026: LimitedJointLeft
+    400028: LimitedJointRight
+    400030: LimitedJointTop
+    400032: Right
+    400034: Right 1
+    400036: Right_Face
+    400038: Top
+    400040: Top 1
+    400042: Top_Face
+    2300000: Body
+    2300002: Bottom 1
+    2300004: Bottom_Face
+    2300006: Left 1
+    2300008: Left_Face
+    2300010: Right 1
+    2300012: Right_Face
+    2300014: Top 1
+    2300016: Top_Face
+    3300000: Body
+    3300002: Bottom 1
+    3300004: Bottom_Face
+    3300006: Left 1
+    3300008: Left_Face
+    3300010: Right 1
+    3300012: Right_Face
+    3300014: Top 1
+    3300016: Top_Face
+    4300000: Body
+    4300002: Top
+    4300004: Top_Face
+    4300006: Right
+    4300008: Right_Face
+    4300010: Bottom
+    4300012: Bottom_Face
+    4300014: Left
+    4300016: Left_Face
+    7400000: Leg1Out
+    7400002: Leg1In
+    7400004: Leg2Out
+    7400006: Leg2In
+    7400008: Leg3Out
+    7400010: Leg3In
+    7400012: Leg4Out
+    7400014: Leg4In
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Leg1Out
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Bottom
+        weight: 1
+      - path: Bottom/joint2
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1/Bottom_Face
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Left/joint2 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1/Left_Face
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Right/joint2 2
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1/Right_Face
+        weight: 1
+      - path: Top
+        weight: 1
+      - path: Top/joint2 3
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1/Top_Face
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leg1In
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Bottom
+        weight: 1
+      - path: Bottom/joint2
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1/Bottom_Face
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Left/joint2 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1/Left_Face
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Right/joint2 2
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1/Right_Face
+        weight: 1
+      - path: Top
+        weight: 1
+      - path: Top/joint2 3
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1/Top_Face
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leg2Out
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Bottom
+        weight: 1
+      - path: Bottom/joint2
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1/Bottom_Face
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Left/joint2 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1/Left_Face
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Right/joint2 2
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1/Right_Face
+        weight: 1
+      - path: Top
+        weight: 1
+      - path: Top/joint2 3
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1/Top_Face
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leg2In
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Bottom
+        weight: 1
+      - path: Bottom/joint2
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1/Bottom_Face
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Left/joint2 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1/Left_Face
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Right/joint2 2
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1/Right_Face
+        weight: 1
+      - path: Top
+        weight: 1
+      - path: Top/joint2 3
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1/Top_Face
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leg3Out
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Bottom
+        weight: 1
+      - path: Bottom/joint2
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1/Bottom_Face
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Left/joint2 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1/Left_Face
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Right/joint2 2
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1/Right_Face
+        weight: 1
+      - path: Top
+        weight: 1
+      - path: Top/joint2 3
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1/Top_Face
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leg3In
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Bottom
+        weight: 1
+      - path: Bottom/joint2
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1/Bottom_Face
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Left/joint2 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1/Left_Face
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Right/joint2 2
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1/Right_Face
+        weight: 1
+      - path: Top
+        weight: 1
+      - path: Top/joint2 3
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1/Top_Face
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leg4Out
+      takeName: Take 001
+      firstFrame: 360
+      lastFrame: 420
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Bottom
+        weight: 1
+      - path: Bottom/joint2
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1/Bottom_Face
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Left/joint2 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1/Left_Face
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Right/joint2 2
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1/Right_Face
+        weight: 1
+      - path: Top
+        weight: 1
+      - path: Top/joint2 3
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1/Top_Face
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leg4In
+      takeName: Take 001
+      firstFrame: 420
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Bottom
+        weight: 1
+      - path: Bottom/joint2
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1
+        weight: 1
+      - path: Bottom/joint2/LimitedJointBottom/Bottom 1/Bottom_Face
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Left/joint2 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1
+        weight: 1
+      - path: Left/joint2 1/LimitedJointLeft/Left 1/Left_Face
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Right/joint2 2
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1
+        weight: 1
+      - path: Right/joint2 2/LimitedJointRight/Right 1/Right_Face
+        weight: 1
+      - path: Top
+        weight: 1
+      - path: Top/joint2 3
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1
+        weight: 1
+      - path: Top/joint2 3/LimitedJointTop/Top 1/Top_Face
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
